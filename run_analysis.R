@@ -6,7 +6,7 @@ library(dplyr)
 ## 1.0 Getting the data from the web
 DirRawData <- "./RawData"
 DirRawDataURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-DataDir <- "./Data"
+DataDir <- "./Data"  
 
 if(!file.exists(DirRawData)) {
         dir.create((DirRawData))
