@@ -4,9 +4,9 @@ The run_analysis.R script performs the data preparation and then followed by the
 
 2. Read Data from Files and assign to variables. This project uses 6 datafiles:  x_train.txt, x_test.txt, y_train.txt, y_test.txt, subject_train.txt and subject_test.txt
 
-Features.txt contains the variable name, which corresponds to each column of x_train.txt and x_test.txt. 
+	Features.txt contains the variable name, which corresponds to each column of x_train.txt and x_test.txt. 
 
-The activity_labels.txt contains the desciptive names for each activity label, which corresponds to each number in the y_train.txt and y_test.txt.
+	The activity_labels.txt contains the desciptive names for each activity label, which corresponds to each number in the y_train.txt and y_test.txt.
 
 3. Merge the training and the test sets to create one data set.  x_data.txt, y_data.txt, subject_data.txt are binded by row, and after that all three of them are binded by column.
 
